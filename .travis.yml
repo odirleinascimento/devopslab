@@ -1,5 +1,8 @@
 # Linguagem Utilizada para Desenvolver a Aplicação                                                                                                                                                       
 language: python                                                                                                                                                                                         
+strategy: api
+dist: xenial
+os: linux
 
 # Versão que a aplicação suporta.                                                                                                                                                                        
 python:                                                                                                                                                                                                  
