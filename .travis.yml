@@ -1,6 +1,5 @@
 # Linguagem Utilizada para Desenvolver a Aplicação                                                                                                                                                       
 language: python                                                                                                                                                                                         
-strategy: api
 dist: xenial
 os: linux
 
@@ -18,6 +17,7 @@ script:
 
 # Definir o Deploy no Heroku
 deploy:
+  strategy: api
   provider: heroku
   api_key: $HEROKU_API_KEY
   edge: true 
